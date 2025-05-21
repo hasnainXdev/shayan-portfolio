@@ -3,7 +3,7 @@ import { Dribbble, Linkedin, Twitter, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 
 
-const navbar = () => {
+const Navbar = () => {
     return (
      <div>
               {/* Navigation Bar */}
@@ -36,4 +36,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
