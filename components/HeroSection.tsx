@@ -6,11 +6,10 @@ import { Button } from './ui/button'
 const HeroSection = () => {
     return (
         <div>
-            {/* Hero Content - Centered */}
-            <div className="flex-1 flex items-center justify-center">
+            <div className="flex items-center justify-center py-20">
                 <div className="max-w-3xl text-center">
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                        I create <span className="font-handwriting text-[#1EAEDB] tilted-underline">beautiful</span> graphics
+                        I create <span className="font-handwriting text-blue-500 underline">beautiful</span> graphics
                     </h1>
                     <h2 className="text-xl md:text-2xl text-gray-300 mb-10">
                         I help businesses grow with visually appealing designs
