@@ -6,30 +6,34 @@ import { Button } from './ui/button'
 const HeroSection = () => {
     return (
         <div>
-            <div className="flex items-center justify-center py-20">
+            <div className="flex items-center justify-center py-20 font-[poppins]">
                 <div className="max-w-3xl text-center">
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                        I create <span className="font-handwriting text-blue-500 underline">beautiful</span> graphics
+                        I create <span className="text-blue-500 underline">beautiful</span> graphics.
                     </h1>
-                    <h2 className="text-xl md:text-2xl text-gray-300 mb-10">
+                    <h2 className="text-xl md:text-xl text-gray-300 mb-10">
                         I help businesses grow with visually appealing designs
                     </h2>
 
                     <div className="flex flex-wrap justify-center gap-4">
-                        <Button
-                            className="text-black bg-white hover:bg-gray-200 transition-colors rounded-full cursor-pointer"
-                            size="lg"
-                        >
-                            Let's Talk <Mail className="ml-1 h-4 w-4" />
-                        </Button>
+                        <Link href={"/"}>
+                            <Button
+                                className="text-black bg-white hover:bg-gray-200 transition-colors rounded-full cursor-pointer"
+                                size="lg"
+                            >
+                                Let's Talk <Mail className="ml-1 h-4 w-4" />
+                            </Button>
+                        </Link>
 
-                        <Button
-                            variant="outline"
-                            className="dark:border-white dark:text-white dark:hover:bg-white/10 text-black cursor-pointer rounded-full"
-                            size="lg"
-                        >
-                            Download CV <Download className="ml-1 h-4 w-4" />
-                        </Button>
+                        <Link href={"/Shayan_Tahir_CV.pdf"} target='_blank'>
+                            <Button
+                                variant="outline"
+                                className="dark:border-white dark:text-white dark:hover:bg-white/10 text-black cursor-pointer rounded-full"
+                                size="lg"
+                            >
+                                Download CV <Download className="ml-1 h-4 w-4" />
+                            </Button>
+                        </Link>
                     </div>
                 </div>
             </div>

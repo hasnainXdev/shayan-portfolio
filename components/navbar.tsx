@@ -13,13 +13,13 @@ const Navbar = () => {
 
         {/* Social Media Links */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+          <Link href="http://www.linkedin.com/in/shayan-tahir" target="_blank" rel="noopener noreferrer" className="hover:opacity-65 transition-opacity">
             <Linkedin className="h-5 w-5" />
           </Link>
-          <Link href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
-            <X className="h-5 w-5" />
+          <Link href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-65 transition-opacity">
+            <Twitter className="h-5 w-5" />
           </Link>
-          <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+          <Link href="https://www.instagram.com/p/DIiPN--tnlg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" className="hover:opacity-65 transition-opacity">
             <Instagram className="h-5 w-5" />
           </Link>
         </div>
