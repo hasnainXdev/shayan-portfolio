@@ -2,30 +2,24 @@ import { Download, Dribbble, Instagram, Linkedin, Mail, Twitter } from 'lucide-r
 import Link from 'next/link'
 import React from 'react'
 import { Button } from './ui/button'
+import Image from 'next/image'
 
 const HeroSection = () => {
     return (
         <div className="relative min-h-screen overflow-hidden">
-            {/* Video Background */}
-            <div className="absolute inset-0 w-full h-full">
-                <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    preload="auto"
-                    className="absolute w-full h-full object-cover"
-                    style={{
-                        filter: 'brightness(0.8)',
-                        transform: 'scale(1.1)',
-                        transition: 'transform 0.3s ease-in-out'
-                    }}
-                >
-                    <source src="/hero-animate.webm" type="video/webm" />
-                </video>
-                {/* Overlay to ensure text readability */}
-                <div className="absolute inset-0 bg-black/50"></div>
+            {/* Glowing Blob Background */}
+            <div className="absolute inset-0 w-full h-full z-0">
+
+                <Image
+                    src="/blobblue1.svg"
+                    alt="Small Top Blob"
+                    width={150}
+                    height={150}
+                    className="absolute top-40 right-10 opacity-80 blur-sm"
+                />
+                <div className="absolute inset-0 bg-black"></div>
             </div>
+
 
             {/* Content */}
             <div className="relative z-10">
@@ -69,7 +63,7 @@ const HeroSection = () => {
                     <Link href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-65 transition-opacity">
                         <Twitter className="h-5 w-5" />
                     </Link>
-                    <Link href="https://www.instagram.com/p/DIiPN--tnlg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" className="hover:opacity-65 transition-opacity">
+                    <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-65 transition-opacity">
                         <Instagram className="h-5 w-5" />
                     </Link>
                 </div>
