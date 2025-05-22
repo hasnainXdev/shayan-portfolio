@@ -7,18 +7,18 @@ import Image from 'next/image'
 const HeroSection = () => {
     return (
         <div className="relative min-h-screen overflow-hidden">
-            {/* Glowing Blob Background */}
             <div className="absolute inset-0 w-full h-full z-0">
+                <div className="absolute inset-0 bg-black"></div>
 
                 <Image
                     src="/blobblue1.svg"
                     alt="Small Top Blob"
-                    width={150}
-                    height={150}
-                    className="absolute top-40 right-10 opacity-80 blur-sm"
+                    width={350}
+                    height={350}
+                    className="absolute top-48 -right-10"
                 />
-                <div className="absolute inset-0 bg-black"></div>
             </div>
+
 
 
             {/* Content */}
