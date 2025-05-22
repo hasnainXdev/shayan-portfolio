@@ -8,9 +8,9 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-black text-white">
       <HeroSection />
-      <ServicesSection />
-      <ProjectsSection />
       <AboutSection />
+      <ProjectsSection />
+      <ServicesSection />
       <Footer />
     </div>
   );

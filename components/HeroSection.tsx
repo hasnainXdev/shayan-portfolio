@@ -17,7 +17,7 @@ const HeroSection = () => {
 
                     <div className="flex flex-wrap justify-center gap-4">
                         <Button
-                            className="text-black bg-white hover:bg-gray-200 transition-colors rounded-full"
+                            className="text-black bg-white hover:bg-gray-200 transition-colors rounded-full cursor-pointer"
                             size="lg"
                         >
                             Let's Talk <Mail className="ml-1 h-4 w-4" />
@@ -25,7 +25,7 @@ const HeroSection = () => {
 
                         <Button
                             variant="outline"
-                            className="border-white text-white hover:bg-white/10 rounded-full"
+                            className="dark:border-white dark:text-white dark:hover:bg-white/10 text-black cursor-pointer rounded-full"
                             size="lg"
                         >
                             Download CV <Download className="ml-1 h-4 w-4" />
