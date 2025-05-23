@@ -1,3 +1,6 @@
+"use client"
+
+import { motion } from 'framer-motion';
 import { Download, Dribbble, Instagram, Linkedin, Mail, Twitter } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
@@ -10,15 +13,28 @@ const HeroSection = () => {
             <div className="absolute inset-0 w-full h-full z-0">
                 <div className="absolute inset-0 bg-black"></div>
 
-                <Image
-                    src="/blobblue1.svg"
-                    alt="Small Top Blob"
-                    width={350}
-                    height={350}
-                    className="absolute top-48 -right-10"
-                />
+                {/* Animated Blob */}
+                <div className='absolute top-48 -right-10'>
+                    <motion.div
+                        animate={{
+                            scale: [1, 1.1, 0.95, 1],
+                            skew: [0, 5, -5, 0],
+                        }}
+                        transition={{
+                            duration: 1.5,
+                            repeat: Infinity,
+                            ease: 'easeInOut',
+                        }}
+                    >
+                        <Image
+                            src="/blobblue1.svg"
+                            alt="Small Top Blob"
+                            width={350}
+                            height={350}
+                        />
+                    </motion.div>
+                </div>
             </div>
-
 
 
             {/* Content */}

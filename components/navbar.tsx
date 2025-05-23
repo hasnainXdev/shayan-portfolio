@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="border-b">
+    <div className="fixed w-full top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/80 dark:bg-black/50 border-b border-white/10 dark:border-white/10 shadow-sm">
       {/* Navigation Bar */}
-      <nav className="flex items-center justify-between py-8 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="flex items-center justify-between py-5 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <div className="text-2xl font-bold underline dark:text-blue-400">Shayan</div>
 
@@ -38,4 +38,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
