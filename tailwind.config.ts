@@ -10,7 +10,6 @@ const config: Config = {
     theme: {
         extend: {
             fontFamily: {
-                handlee: ["Handlee", "cursive"],
                 sans: ["var(--font-geist-sans)"],
                 mono: ["var(--font-geist-mono)"],
             },

@@ -14,12 +14,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const handlee = Handlee({
-  variable: "--font-handlee",
-  subsets: ["latin"],
-  weight: "400"
-})
-
 export const metadata: Metadata = {
   title: "Shayan - Portfolio",
   description: "Shayan's portfolio website",
@@ -33,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${handlee.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
