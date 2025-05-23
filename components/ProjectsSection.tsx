@@ -144,9 +144,10 @@ const ProjectsSection = () => {
                     <Card className="cursor-pointer overflow-hidden bg-zinc-900/50 border border-white/10 rounded-xl group hover:border-blue-500/30 transition-all duration-300 backdrop-blur-sm">
                       <CardContent className="p-0 relative">
                         <div className="relative aspect-[4/3] overflow-hidden">
-                          <img
+                          <Image
                             src={project.imageUrl}
                             alt={project.title}
+                            fill
                             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
