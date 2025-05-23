@@ -120,8 +120,12 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 .font-handlee {
-  font-family: handlee,sans-serif;
+  font-family: handlee, sans-serif;
 }
