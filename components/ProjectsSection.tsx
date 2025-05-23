@@ -19,13 +19,13 @@ const projectsData: Project[] = [
     id: 1,
     title: "Tech Startup Brand Identity",
     category: "branding",
-    imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=600&h=400&q=80"
+    imageUrl: "/img1.jpg"
   },
   {
     id: 2,
     title: "E-commerce Social Strategy",
     category: "marketing",
-    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&h=400&q=80"
+    imageUrl: "/img2.jpg"
   },
   {
     id: 3,
@@ -122,7 +122,7 @@ const ProjectsSection = () => {
       </motion.div>
 
       <div className="max-w-6xl mx-auto relative z-10">
-        <motion.h2 
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
