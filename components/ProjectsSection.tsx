@@ -17,76 +17,53 @@ type Project = {
 const projectsData: Project[] = [
   {
     id: 1,
-    title: "Tech Startup Brand Identity",
+    title: "Branding",
     category: "branding",
-    imageUrl: "/img1.jpg"
+    imageUrl: "/anascan1.jpg"
   },
   {
     id: 2,
-    title: "E-commerce Social Strategy",
-    category: "marketing",
-    imageUrl: "/img2.jpg"
+    title: "Branding",
+    category: "branding",
+    imageUrl: "/anascan2.jpg"
   },
   {
     id: 3,
-    title: "SaaS Platform Redesign",
+    title: "Graphic Design",
     category: "graphic designs",
-    imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&h=400&q=80"
+    imageUrl: "/graphicswork1.jpg"
   },
   {
     id: 4,
-    title: "Organic Skincare Packaging",
-    category: "branding",
-    imageUrl: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=600&h=400&q=80"
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork2.jpg"
   },
   {
     id: 5,
-    title: "Fitness Mobile App UI",
+    title: "Graphic Design",
     category: "graphic designs",
-    imageUrl: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=600&h=400&q=80"
+    imageUrl: "/graphicswork3.jpg"
   },
   {
     id: 6,
-    title: "Email Campaign Series",
+    title: "Marketing",
     category: "marketing",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80"
   },
   {
     id: 7,
-    title: "AI Startup Visual System",
-    category: "branding",
-    imageUrl: "https://images.unsplash.com/photo-1522543559593-2c2ddeb5d069?auto=format&fit=crop&w=600&h=400&q=80"
-  },
-  {
-    id: 8,
-    title: "Influencer Marketing Campaign",
+    title: "Marketing",
     category: "marketing",
     imageUrl: "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=600&h=400&q=80"
   },
+
   {
-    id: 9,
-    title: "Fintech Dashboard Design",
-    category: "graphic designs",
-    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=400&q=80"
-  },
-  {
-    id: 10,
-    title: "Sustainable Fashion Branding",
-    category: "branding",
-    imageUrl: "https://images.unsplash.com/photo-1586023492125-27b3b0bca10a?auto=format&fit=crop&w=600&h=400&q=80"
-  },
-  {
-    id: 11,
-    title: "Product Launch Campaign",
+    id: 8,
+    title: "Marketing",
     category: "marketing",
     imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&h=400&q=80"
   },
-  {
-    id: 12,
-    title: "Portfolio Platform Design",
-    category: "graphic designs",
-    imageUrl: "https://images.unsplash.com/photo-1573166364902-5b7e68736458?auto=format&fit=crop&w=600&h=400&q=80"
-  }
 ];
 
 const categories = ["all", "graphic designs", "branding", "marketing"];
