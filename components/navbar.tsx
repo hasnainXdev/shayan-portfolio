@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* Navigation Bar */}
       <nav className="flex items-center justify-between py-5 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <div className="text-2xl font-bold underline dark:text-blue-400">Shayan</div>
+        <div className="text-2xl font-bold dark:text-blue-600">Shayan</div>
 
         {/* Social Media Links */}
         <div className="hidden md:flex items-center space-x-6">
