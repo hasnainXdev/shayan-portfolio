@@ -1,5 +1,5 @@
 
-import { Dribbble, Home, Linkedin, Mail, Twitter } from "lucide-react";
+import { Dribbble, Home, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold mb-4">Navigation</h3>
                         <ul className="space-y-2">
                             <li>
-                                <Link href="/" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
+                                <Link href="#" className="text-gray-300 hover:text-white transition-colors flex items-center gap-2">
                                     <Home className="h-4 w-4" /> Home
                                 </Link>
                             </li>
@@ -33,9 +33,9 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold mb-4">Contact</h3>
                         <p className="flex items-center gap-2 mb-2">
                             <Mail className="h-4 w-4" />
-                            <a href="mailto:design@example.com" className="text-gray-300 hover:text-white transition-colors">
-                                design@example.com
-                            </a>
+                            <Link href="mailto:tahirchaudhary195@gmail.com" target="_blank" className="text-gray-300 hover:text-white transition-colors">
+                                tahirchaudhary195@gmail.com
+                            </Link>
                         </p>
                     </div>
 
@@ -43,23 +43,25 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
                         <div className="flex space-x-4">
-                            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+                            <Link href="http://www.linkedin.com/in/shayan-tahir" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
                                 <Linkedin className="h-5 w-5 text-white" />
                             </Link>
                             <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
                                 <Twitter className="h-5 w-5 text-white" />
                             </Link>
-                            <Link href="https://dribbble.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
-                                <Dribbble className="h-5 w-5 text-white" />
+                            <Link href="https://www.instagram.com/p/DIiPN--tnlg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+                                <Instagram className="h-5 w-5 text-white" />
                             </Link>
                         </div>
                     </div>
 
                     {/* Copyright */}
-                    <div>
+                    <div className="flex flex-col gap-3">
                         <p className="text-gray-400 text-sm">
                             © {new Date().getFullYear()} Design Portfolio.<br />All rights reserved.
                         </p>
+                        <p className="text-gray-400 text-base">Build By <Link href={"https://github.com/mhasnain23"} target="_blank" className="hover:opacity-75 transition-opacity">Hasnain Developer ❤</Link></p>
+                        <p className="text-gray-400 text-base">Owner <Link href={"http://www.linkedin.com/in/shayan-tahir"} target="_blank">Shayan</Link></p>
                     </div>
                 </div>
             </div>
