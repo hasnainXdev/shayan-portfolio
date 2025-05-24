@@ -12,7 +12,13 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizeCss: true,
+    serverComponentsExternalPackages: ['lightningcss'],
   },
+  output: 'standalone',
+  webpack: (config) => {
+    config.externals.push('lightningcss');
+    return config;
+  }
 };
 
 export default nextConfig;
