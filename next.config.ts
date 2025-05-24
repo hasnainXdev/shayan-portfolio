@@ -12,7 +12,6 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizeCss: true,
-    serverComponentsExternalPackages: ['lightningcss'],
   },
 };
 
