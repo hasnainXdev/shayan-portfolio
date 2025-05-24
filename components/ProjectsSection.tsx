@@ -29,37 +29,91 @@ const projectsData: Project[] = [
   },
   {
     id: 3,
-    title: "Graphic Design",
-    category: "graphic designs",
-    imageUrl: "/graphicswork1.jpg"
+    title: "Branding",
+    category: "branding",
+    imageUrl: "/branding2.jpg"
   },
   {
     id: 4,
-    title: "Graphic Design",
-    category: "graphic designs",
-    imageUrl: "/graphicswork2.jpg"
+    title: "Branding",
+    category: "branding",
+    imageUrl: "/branding3.jpg"
   },
   {
     id: 5,
     title: "Graphic Design",
     category: "graphic designs",
-    imageUrl: "/graphicswork3.jpg"
+    imageUrl: "/graphicswork1.jpg"
   },
   {
     id: 6,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork2.jpg"
+  },
+  {
+    id: 7,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork3.jpg"
+  },
+  {
+    id: 8,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork4.jpg"
+  },
+  {
+    id: 9,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork5.jpg"
+  },
+  {
+    id: 10,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork6.jpg"
+  },
+  {
+    id: 11,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork7.jpg"
+  },
+  {
+    id: 12,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork8.jpg"
+  },
+  {
+    id: 13,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork9.jpg"
+  },
+  {
+    id: 14,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork10.jpg"
+  },
+  {
+    id: 15,
     title: "Marketing",
     category: "marketing",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80"
   },
   {
-    id: 7,
+    id: 16,
     title: "Marketing",
     category: "marketing",
     imageUrl: "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=600&h=400&q=80"
   },
 
   {
-    id: 8,
+    id: 17,
     title: "Marketing",
     category: "marketing",
     imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&h=400&q=80"
