@@ -1,5 +1,5 @@
 
-import { Dribbble, Home, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
+import { Dribbble, Home, Instagram, Linkedin, Mail, Phone, Twitter } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -36,6 +36,12 @@ const Footer = () => {
                             <Link href="mailto:tahirchaudhary195@gmail.com" target="_blank" className="text-gray-300 hover:text-white transition-colors">
                                 tahirchaudhary195@gmail.com
                             </Link>
+                        </p>
+                        <p className="flex items-center gap-2 cursor-pointer">
+                            <Phone className="h-4 w-4" />
+                            <span className="text-gray-300 hover:text-white transition-colors">
+                                92+ 308-2513251
+                            </span>
                         </p>
                     </div>
 
