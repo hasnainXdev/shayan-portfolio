@@ -66,7 +66,7 @@ const Footer = () => {
                         <p className="text-gray-400 text-sm">
                             © {new Date().getFullYear()} Design Portfolio.<br />All rights reserved.
                         </p>
-                        <p className="text-gray-400 text-base">Build By <Link href={"https://github.com/mhasnain23"} target="_blank" className="hover:opacity-75 transition-opacity">Hasnain Developer ❤</Link></p>
+                        <p className="text-gray-400 text-base">Build By <Link href={"https://github.com/hasnainxdev"} target="_blank" className="hover:opacity-75 transition-opacity">Hasnain Developer ❤</Link></p>
                         <p className="text-gray-400 text-base">Owner <Link href={"http://www.linkedin.com/in/shayan-tahir"} target="_blank">Shayan</Link></p>
                     </div>
                 </div>

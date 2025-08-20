@@ -87,37 +87,37 @@ const projectsData: Project[] = [
     category: "graphic designs",
     imageUrl: "/graphicswork8.jpg"
   },
-  {
-    id: 13,
-    title: "Graphic Design",
-    category: "graphic designs",
-    imageUrl: "/graphicswork9.jpg"
-  },
-  {
-    id: 14,
-    title: "Graphic Design",
-    category: "graphic designs",
-    imageUrl: "/graphicswork10.jpg"
-  },
-  {
-    id: 15,
-    title: "Marketing",
-    category: "marketing",
-    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80"
-  },
-  {
-    id: 16,
-    title: "Marketing",
-    category: "marketing",
-    imageUrl: "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=600&h=400&q=80"
-  },
+  // {
+  //   id: 13,
+  //   title: "Graphic Design",
+  //   category: "graphic designs",
+  //   imageUrl: "/graphicswork9.jpg"
+  // },
+  // {
+  //   id: 14,
+  //   title: "Graphic Design",
+  //   category: "graphic designs",
+  //   imageUrl: "/graphicswork10.jpg"
+  // },
+  // {
+  //   id: 15,
+  //   title: "Marketing",
+  //   category: "marketing",
+  //   imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80"
+  // },
+  // {
+  //   id: 16,
+  //   title: "Marketing",
+  //   category: "marketing",
+  //   imageUrl: "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=600&h=400&q=80"
+  // },
 
-  {
-    id: 17,
-    title: "Marketing",
-    category: "marketing",
-    imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&h=400&q=80"
-  },
+  // {
+  //   id: 17,
+  //   title: "Marketing",
+  //   category: "marketing",
+  //   imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=600&h=400&q=80"
+  // },
 ];
 
 const categories = ["all", "graphic designs", "branding", "marketing"];
