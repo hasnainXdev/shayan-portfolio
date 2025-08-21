@@ -180,7 +180,7 @@ const projectsData: Project[] = [
   // },
 ];
 
-const categories = ["all", "graphic designs", "branding", "marketing"];
+const categories = ["all", "graphic designs", "branding"];
 
 const ProjectsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -234,7 +234,7 @@ const ProjectsSection = () => {
                   value={category}
                   onClick={() => setActiveCategory(category)}
                   className={cn(
-                    "rounded-full px-6 py-2 capitalize text-sm md:text-base",
+                    "rounded-full px-6 py-1.5 capitalize text-sm md:text-base cursor-pointer",
                     "data-[state=active]:bg-blue-600 data-[state=active]:text-white",
                     "data-[state=inactive]:text-gray-300 hover:text-white transition-colors"
                   )}
@@ -262,7 +262,7 @@ const ProjectsSection = () => {
                             src={project.imageUrl}
                             alt={project.title}
                             fill
-                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                             <h3 className="text-white text-xl font-medium">
