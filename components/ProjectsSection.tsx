@@ -87,18 +87,78 @@ const projectsData: Project[] = [
     category: "graphic designs",
     imageUrl: "/graphicswork8.jpg"
   },
-  // {
-  //   id: 13,
-  //   title: "Graphic Design",
-  //   category: "graphic designs",
-  //   imageUrl: "/graphicswork9.jpg"
-  // },
-  // {
-  //   id: 14,
-  //   title: "Graphic Design",
-  //   category: "graphic designs",
-  //   imageUrl: "/graphicswork10.jpg"
-  // },
+  {
+    id: 13,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork9.jpg"
+  },
+  {
+    id: 14,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork10.jpg"
+  },
+  {
+    id: 15,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork11.jpg"
+  },
+  {
+    id: 16,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork12.jpg"
+  },
+  {
+    id: 17,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork13.jpg"
+  },
+  {
+    id: 18,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork14.jpg"
+  },
+  {
+    id: 19,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork15.jpg"
+  },
+  {
+    id: 20,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork16.jpg"
+  },
+  {
+    id: 21,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork17.jpg"
+  },
+  {
+    id: 22,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork18.jpg"
+  },
+  {
+    id: 23,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork19.jpg"
+  },
+  {
+    id: 24,
+    title: "Graphic Design",
+    category: "graphic designs",
+    imageUrl: "/graphicswork20.jpg"
+  },
   // {
   //   id: 15,
   //   title: "Marketing",
